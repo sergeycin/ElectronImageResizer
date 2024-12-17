@@ -1,0 +1,19 @@
+{
+  "name": "electronimageresizer",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "app to resize image",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon ."
+
+  },
+  "author": "sergey ptitsyn",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^33.2.1",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
